@@ -1,9 +1,9 @@
 import React from 'react';
-
+import Board from './board';
 export default class App extends React.Component {
     render(){
         return (
-            <h1>hello</h1>
+            <Board/>
         );
     }
 }
